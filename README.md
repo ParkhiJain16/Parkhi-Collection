@@ -37,3 +37,17 @@ This project was created as a **learning-focused front-end application** to stre
 
 **Parkhi Jain**  
 Learning React through hands-on projects 🚀
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](./Home.png)
+
+### 🛍️ Products Page
+![Products Page](./Products.png)
+
+### 🛒 Cart Page
+![Cart Page](./Cart.png)
+
