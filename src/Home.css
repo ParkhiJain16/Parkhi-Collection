@@ -1,0 +1,101 @@
+/* ===== HERO ===== */
+.hero {
+    background: linear-gradient(135deg, #f6e7e7, #fff);
+    padding: 90px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 44px;
+    margin-bottom: 10px;
+    color: #7b2c2c;
+  }
+  
+  .hero p {
+    max-width: 700px;
+    margin: 0 auto 25px;
+    font-size: 18px;
+    color: #444;
+  }
+  
+  .hero button {
+    padding: 14px 30px;
+    background-color: #7b2c2c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .hero button:hover {
+    background-color: #5f2121;
+  }
+  
+  /* ===== CATEGORIES ===== */
+  .categories {
+    padding: 70px 40px;
+    text-align: center;
+  }
+  
+  .categories h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: whitesmoke;
+  }
+  
+  .category-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 35px;
+  }
+  
+  /* ===== CARD ===== */
+  .category-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  }
+  
+  .category-card img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+  }
+  
+  .category-card h3 {
+    margin: 16px 0 6px;
+    color: #7b2c2c;
+  }
+  
+  .category-card p {
+    font-size: 14px;
+    padding: 0 15px;
+    color: #555;
+  }
+  
+  /* ===== CARD BUTTON ===== */
+  .card-btn {
+    margin: 18px auto 25px;
+    padding: 10px 24px;
+    background-color: #7b2c2c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+  }
+  
+  .card-btn:hover {
+    background-color: #5f2121;
+  }
+  
